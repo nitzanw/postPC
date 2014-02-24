@@ -4,15 +4,11 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
 import android.view.Menu;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.View.OnTouchListener;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
-import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -22,7 +18,6 @@ public class TipCalculatorActivity extends Activity {
 	private CheckBox mRoundCheckBox;
 	private Button mCalcButton;
 	private TextView mTipResult;
-	private boolean mRoundChecked = false;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
